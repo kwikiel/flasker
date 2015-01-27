@@ -15,5 +15,5 @@ def index():
     user = {'nickname': 'Kacper'} #mockup
     return render_template('index.html',
                            title='Home',
-                           user = user
+                           user = user,
                            posts=posts)
